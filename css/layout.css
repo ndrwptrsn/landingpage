@@ -40,6 +40,9 @@ header {
    overflow: hidden;
 }
 
+.linkk {
+  z-index: 5;
+}
 
 .portfolio-link {
   margin-top: -35px;
@@ -379,7 +382,7 @@ ul#nav li.current a { color: #8D9D99; }
   	-webkit-animation: node 2s ease;
 }
 .react {
-  	width: 50%;
+  	width: 80%;
   	-moz-animation: react 2s ease;
   	-webkit-animation: react 2s ease;
 }
@@ -426,7 +429,7 @@ ul#nav li.current a { color: #8D9D99; }
 }
 @-moz-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes ruby {
   0%   { width: 0px;  }
@@ -467,7 +470,7 @@ ul#nav li.current a { color: #8D9D99; }
 }
 @-webkit-keyframes react {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes ruby {
   0%   { width: 0px;  }

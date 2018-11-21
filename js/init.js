@@ -48,7 +48,7 @@
 		   var active_section;
 
 			active_section = $(this);
-			if (direction === "up") active_section = active_section.prev();
+			active_section = active_section.prev();
 
 			var active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
 
